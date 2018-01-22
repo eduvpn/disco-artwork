@@ -1,0 +1,25 @@
+/* only show the logo when width is >= 600px */
+@media (min-width: 600px) {
+    div.header {
+        background-image: url('../img/eduvpn.png');
+        background-repeat: no-repeat;
+        background-size: 48px;
+        background-position: 99% 50%;
+    }
+}
+
+div.header {
+    border-bottom: 2px #df7f0c solid;
+}
+
+span.serviceName {
+    color: #df7f0c;
+}
+
+form.entity button {
+    color: #df7f0c;
+}
+
+form.entity button:hover, form.entity button:active, form.entity button:focus {
+    background-color: #df7f0c;
+}
