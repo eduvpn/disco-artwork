@@ -1,7 +1,7 @@
 /* only show the logo when width is >= 600px */
 @media (min-width: 600px) {
     div.header {
-        background-image: url('../img/eduvpn.png');
+        background-image: url('../../img/eduVPN/eduvpn.png');
         background-repeat: no-repeat;
         background-size: 48px;
         background-position: 99% 50%;
